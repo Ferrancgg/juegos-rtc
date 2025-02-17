@@ -1,0 +1,10 @@
+.tablero{
+    height: 510px;
+    width: 510px;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}

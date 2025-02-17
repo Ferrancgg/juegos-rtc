@@ -1,0 +1,28 @@
+.nav-link {
+  border: 2px solid var(--color-primary);
+  border-radius: 15px;
+  
+font-weight: bold;
+  text-decoration: none;
+  color: var(--color-primary);
+  font-size: 18px;
+  padding: 5px;
+  background-color: var(--color-bg);
+}
+
+.nav-link:hover {
+  color:antiquewhite;
+  background-color: var(--color-secondary);
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color:antiquewhite;
+  
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}

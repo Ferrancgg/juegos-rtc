@@ -1,0 +1,19 @@
+.casilla {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    margin: 10px;
+    border: 10px solid var(--secondary);
+    cursor: pointer;
+    font-size: 10px;
+    background-color: white;
+    transition: background 0.2s ease-in-out;
+  }
+  
+  .casilla:hover {
+    background-color: lightgray;
+  }
+  

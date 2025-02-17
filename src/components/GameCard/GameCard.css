@@ -1,0 +1,28 @@
+.card-game{
+    min-width: 300px;
+    min-height: 400px;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color:var( --color-primary);
+    box-shadow: 2px 2px 30px rgb(94, 85, 85);
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    cursor: pointer;
+    
+}
+
+.img-game-container {
+    width: 200px;
+    height: 200px;
+}
+
+.img-game-container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,32 @@
+.main {
+  height: 90vh;
+  width: 100%;
+  border: 2px solid blue;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding: none;
+}
+
+/* Ajustes para tablets (pantallas de 768px o menos) */
+@media (max-width: 768px) {
+  .main{height: 100%;
+    /* padding: 20px; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+  } 
+}
+
+/* Ajustes para móviles (pantallas de 480px o menos) */
+@media (max-width: 480px) {
+  .main {
+    background-color: red;
+    height: 100%;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+}

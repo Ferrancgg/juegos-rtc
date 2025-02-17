@@ -1,0 +1,38 @@
+:root {
+  --color-bg: #f8f9fa; /* Fondo principal */
+  --color-text: #333333; /* Color de texto */
+  --color-primary: #4a90e2; /* Azul principal */
+  --color-secondary: #2ecc71; /* Verde menta */
+  --color-border: #e0e0e0; /* Gris claro */
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: var(--color-text);
+  background-color: var(--color-bg);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

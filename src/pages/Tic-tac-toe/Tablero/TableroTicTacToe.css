@@ -1,0 +1,15 @@
+.juego-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0px;
+}
+
+.tablero {
+  width: 520px;
+  height: 520px;
+  border: 2px solid red;
+  display: flex;
+  flex-wrap: wrap;
+}
