@@ -1,5 +1,5 @@
 .main {
-  height: 90vh;
+  height: 87vh;
   width: 100%;
   border: 2px solid blue;
   display: flex;
@@ -12,7 +12,7 @@
 
 /* Ajustes para tablets (pantallas de 768px o menos) */
 @media (max-width: 768px) {
-  .main{height: 100%;
+  .main{height: 87vh;
     /* padding: 20px; */
     padding-top: 50px;
     padding-bottom: 50px;
@@ -23,7 +23,8 @@
 /* Ajustes para móviles (pantallas de 480px o menos) */
 @media (max-width: 480px) {
   .main {
-    background-color: red;
+    /* background-color: rgb(134, 59, 59); */
+ 
     height: 100%;
     padding: 0;
     padding-top: 20px;

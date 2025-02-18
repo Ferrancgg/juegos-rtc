@@ -3,7 +3,7 @@ import GameCard from "../../components/GameCard/GameCard";
 
 const Home = () => {
   return (
-    <div className="home">j
+    <div className="home">
       <GameCard
       path={"/ahorcado"}
         img="https://res.cloudinary.com/dj50wjowc/image/upload/v1739167720/verdugo_sy0rsl.png"

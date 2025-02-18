@@ -29,7 +29,7 @@ const TresEnRayaGame = () => {
   };
 
   const handleCasilla = (fila, columna) => {
-    if (campeon) return; // Si hay ganador, no hacer nada
+    if (campeon) return; 
 
     const newTablero = tablero.map((fila) => [...fila]); // Copia profunda
     if (!newTablero[fila][columna]) {
@@ -43,7 +43,7 @@ const TresEnRayaGame = () => {
         return;
       }
 
-      setTurno(turno === "X" ? "O" : "X"); // Cambiar de turno
+      setTurno(turno === "X" ? "O" : "X"); 
     }
   };
 
@@ -56,7 +56,7 @@ const TresEnRayaGame = () => {
         {/* <h4>Información</h4> */}
         {!active && <p>Dos jugadores, por turnos, veremos quien es el mejor haciendo "tres en raya", ¡¡que gane el mejor!!</p>}
         {active && <InfoContainer turno={turno} campeon={campeon} />}
-        {!turno&& active&&<p>toca elegir turno para empezar</p>}
+        {!turno&& active&&<p>Toca elegir turno para empezar</p>}
       </div>
       {active && (
         <TableroGame tablero={tablero} handleCasilla={handleCasilla} />

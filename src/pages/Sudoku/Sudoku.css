@@ -1,6 +1,6 @@
 .sudoku-home{
     width: 100%;
-    height:76dvh ;
+    height:83vh ;
     background-color: var(--color-bg);
     display: grid;
     justify-items: center;

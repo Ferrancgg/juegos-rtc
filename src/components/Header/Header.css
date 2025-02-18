@@ -1,11 +1,21 @@
 .header{
 
-    border: 2px solid red;
+    
     height: 7svh;
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
     
+}
+.icono-home{
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    
+.img{ height: 100%;
+width: 100%;}
 }

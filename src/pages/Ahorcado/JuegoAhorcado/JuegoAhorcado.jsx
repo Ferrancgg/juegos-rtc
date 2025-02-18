@@ -1,10 +1,8 @@
-
 import { useEffect, useState } from "react";
 import "./JuegoAhorcado.css";
 import { words } from "../Data/words";
 import WindowText from "../WindowGame/WindowText";
 import IconWindow from "../IconWindow/IconWindow";
-
 
 import InputWindow from "../InputWindow/InputWindow";
 import Button from "../../../components/Button/Button";
@@ -29,7 +27,7 @@ const JuegoAhorcado = () => {
   }, [newGame]);
 
   const reset = () => {
-    setIntentos(6);
+    setIntentos(5);
     setNewGame(true);
     setLetrasJugadas([]);
     setLetrasJugadasError([]);
@@ -68,17 +66,18 @@ const JuegoAhorcado = () => {
     .split("")
     .map((letra) => (letrasJugadas.includes(letra) ? letra : "_ "));
 
-  // Verificar si todas las letras de la palabra han sido adivinadas
-  const todasLetrasAdivinadas = palabraJugar.split("").every(letra => letrasJugadas.includes(letra));
+  const todasLetrasAdivinadas = palabraJugar
+    .split("")
+    .every((letra) => letrasJugadas.includes(letra));
 
-  // Mostrar mensaje de victoria si todas las letras han sido adivinadas
   if (todasLetrasAdivinadas) {
     return (
       <div className="juego-ahorcado">
         <div className="victoria-message">
           <h3>¡Felicidades, has ganado!</h3>
-        {/* <button onClick={reset}>volver a jugar</button> */}
-        <Button name="volver a jugar" onClick={reset}/></div>
+
+          <Button name="volver a jugar" onClick={reset} />
+        </div>
       </div>
     );
   }

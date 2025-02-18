@@ -1,140 +1,31 @@
 .juego-ahorcado {
-  /* background-color: rgb(197, 166, 125); */
+
   height: 90svh;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.fg-general-container {
-  /* background-color: rgb(58, 41, 19); */
-  width: 400px;
-  height: 82svh;
-  /* border: 3px solid rgb(223, 13, 13); */
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
-}
-.fg-window-game {
-  /* border: 2px solid black; */
-  width: 400px;
-  height: 500px;
-  border-radius: 15px;
-  box-shadow: 2px 2px 30px rgb(113, 112, 122);
-  background-image: url(https://res.cloudinary.com/di49fnkc8/image/upload/v1696651967/web%20juegos/Pngtree_landscape_cartoon_vector_green_land_1911228_yty18b.jpg);
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  text-align: center;
-}
-.fg-icono {
-  width: 300px;
-  height: 300px;
-  object-fit: cover;
-}
-.fg-icono > img {
-  width: 100%;
-  height: 100%;
+  
 }
 
-.fg-input-container {
-  /* border: 2px solid rgb(246, 15, 15); */
-  box-shadow: 2px 2px 30px rgb(113, 112, 122);
-  width: 400px;
-  height: 400px;
-  background-color:var(--color-secondary);
-  border-radius: 15px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 20px;
-}
+
 .fg-controler {
   display: flex;
   gap: 15px;
 }
 input {
   height: 40px;
-  width: 70px;
+  width: 50px;
   font-size: 20px;
   text-align: center;
 }
 
-.fg-letters {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-  height: 90px;
-  /* background-color: rgb(120, 120, 145); */
-  width: 300px;
-}
-.fg-controler {
-  height: 100px;
-  background-color:var(--color-primary);
-  border-radius: 15px;
-  width: 350px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-.fg-controler > button {
-  height: 60px;
-  width: 80px;
-  display: flex;
-  flex-direction: column;
-  cursor: pointer;
-}
-.fg-time {
-  height: 120px;
-  font-weight: bold;
-  background-color:var(--color-primary);
-  border-radius: 15px;
-  width: 220px;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-.fg-btt-newGame {
-  height: 90px;
-
-  background-color: blue;
-  width: 220px;
-
-  border: 2px solid black;
-
-  border-radius: 15px;
-  background-color: beige;
-  text-align: center;
-}
-
-.fg-letter {
-  border-radius: 25px;
-  width: 30px;
-  height: 30px;
-  background-color: aqua;
-  border: 1px solid black;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-/* .fg-new-game{
 
 
-} */
-.fg-new-game > button {
-  height: 80px;
-  width: 200px;
-  font-size: 20px;
-}
+
+
+
+
+
 .victoria-message{
     display: flex;
     align-items: center;

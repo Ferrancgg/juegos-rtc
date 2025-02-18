@@ -1,27 +1,29 @@
 import { useNavigate } from "react-router-dom";
 import "./Button.css";
 
-const Button = ({ name, path ,className,onClick}) => {
+const Button = ({ src, alt, name, path, className, onClick }) => {
   const navigate = useNavigate();
-
 
   const handleClick = () => {
     console.log("click");
 
     if (onClick) {
       onClick();
-      return; 
+      return;
     }
 
-  
     if (path) {
       navigate(path);
     }
   };
 
-
   return (
-    <button className={className?className:"button"} onClick={handleClick}>
+    <button
+      src={src}
+      alt={alt}
+      className={className ? className : "button"}
+      onClick={handleClick}
+    >
       {name}
     </button>
   );

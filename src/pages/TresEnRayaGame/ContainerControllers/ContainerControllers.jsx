@@ -3,7 +3,7 @@ import "./ContainerControllers.css"
 
 const ContainerControllers = ({handleReset,setTurno}) => {
   return (
-    <div>
+    <div className="container-controller-game">
       <Button name="RESET" onClick={handleReset}/>
     {/* <button onClick={handleReset}>Reset</button> */}
     <Button name="Empieza X " onClick={()=>setTurno("X")}/>

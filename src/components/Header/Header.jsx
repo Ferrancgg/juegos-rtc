@@ -1,16 +1,20 @@
-import Button from "../Button/Button"
-import Nav from "../Nav/Nav"
-import "./Header.css"
+import Nav from "../Nav/Nav";
+import "./Header.css";
 
 const Header = () => {
   return (
     <header className="header">
-      <Button name="home" path="/" className="btt-home"/>
-<Nav/>
-
+      <div className="icono-home">
+        <a href="/">
+          <img
+            src="https://res.cloudinary.com/dj50wjowc/image/upload/v1739861836/hogar_hkpipa.png"
+            alt="icono-home"
+          />
+        </a>
+      </div>
+      <Nav />
     </header>
-    
-  )
-}
+  );
+};
 
-export default Header
+export default Header;

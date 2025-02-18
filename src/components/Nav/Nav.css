@@ -1,8 +1,8 @@
 .nav-link {
   border: 2px solid var(--color-primary);
   border-radius: 15px;
-  
-font-weight: bold;
+
+  font-weight: bold;
   text-decoration: none;
   color: var(--color-primary);
   font-size: 18px;
@@ -11,18 +11,21 @@ font-weight: bold;
 }
 
 .nav-link:hover {
-  color:antiquewhite;
+  color: antiquewhite;
   background-color: var(--color-secondary);
 }
 
 .nav-link.active {
   font-weight: bold;
-  color:antiquewhite;
-  
+  color: antiquewhite !important; /* Prioridad para que no cambie */
+  background-color: var(--color-secondary) !important;
+  border-color: var(--color-secondary) !important;
+  pointer-events: none; /* Opcional: evita que se vuelva a hacer clic */
 }
-.nav{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }

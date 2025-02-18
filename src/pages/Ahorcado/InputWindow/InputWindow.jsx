@@ -13,22 +13,13 @@ const InputWindow = ({
     <section className="fg-input-container">
       <div className="fg-time">
         <p>Te quedan</p>
-        <h2>{intentos}</h2>
-        <Button onClick={handlePista} name="pista"/>
+        <p>{intentos}</p>
+        <Button onClick={handlePista} name="PISTA"/>
         {/* <button onClick={handlePista}>pista</button> */}
       </div>
       <div className="fg-controler">
         <p>introduce una letra</p>
-        {/* <input
-        type="text"
-        value={letraInput}
-        onChange={(ev) =>
-          setLetraInput(
-            ev.target.value.toLowerCase().replace(/[^a-z]/g, "")
-          )
-        }
-        maxLength={1}
-      /> */}
+  
         <input
           type="text"
           value={letraInput}
@@ -40,7 +31,14 @@ const InputWindow = ({
                 .slice(0, 1)
             )
           }
-          onKeyDown={(ev) => ev.key === "Enter" && jugarLetra()}
+          onKeyDown={(ev) => {
+            if (ev.key === "Enter" && letraInput.trim() !== "") {
+              jugarLetra();
+            }
+            if (ev.key === " " || ev.key === "Enter" && letraInput.trim() === "") {
+              ev.preventDefault(); // Evita que se envíe o procese el Enter o el espacio vacío
+            }
+          }}
           maxLength={1}
         />
 
