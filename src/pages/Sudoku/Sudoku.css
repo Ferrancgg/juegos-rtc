@@ -21,8 +21,8 @@
     margin-bottom: 5px;
 }
 .sudoku-cell{
-    width: 40px;
-    height: 40px;
+    width: 35px;
+    height: 35px;
     text-align: center;
     font-size: 16px;
     font-weight: 1000;

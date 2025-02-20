@@ -1,6 +1,6 @@
 .button{
     height: 30px;
-    width: 150px;
+    width: 120px;
     border: 2px solid var(--color-border);
     border-radius: 15px;
     cursor: pointer;
