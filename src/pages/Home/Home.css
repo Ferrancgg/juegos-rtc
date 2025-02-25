@@ -1,9 +1,7 @@
-.home{
-   
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 15px;
-    height: 100%; 
-    flex-wrap: wrap;
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
 }

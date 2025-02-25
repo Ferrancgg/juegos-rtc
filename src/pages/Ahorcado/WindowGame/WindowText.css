@@ -1,7 +1,6 @@
 .fg-general-container {
-  width: 400px;
-  height: 75svh;
-
+  width: 380px;
+  height: 84svh;
   display: flex;
   flex-direction: column;
   align-items: center;
