@@ -10,7 +10,7 @@ const WindowText = ({ palabraJugar, definicion, reset }) => {
         <h1>{palabraJugar}</h1>
         <p>{definicion}</p>
         <div className="fg-icono">
-          <img src="/src/pages/Ahorcado/img/state_5.png" alt="icono final" />
+          <img src="https://res.cloudinary.com/di49fnkc8/image/upload/v1696651602/web%20juegos/state_5-2_k1yleb.png" alt="icono final" />
         </div>
       </section>
 
