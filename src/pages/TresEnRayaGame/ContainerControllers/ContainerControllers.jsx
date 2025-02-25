@@ -1,17 +1,13 @@
-import Button from "../../../components/Button/Button"
-import "./ContainerControllers.css"
+import Button from "../../../components/Button/Button";
 
-const ContainerControllers = ({handleReset,setTurno}) => {
+const ContainerControllers = ({ handleReset, setTurno }) => {
   return (
     <div className="container-controller-game">
-      <Button name="RESET" onClick={handleReset}/>
-    {/* <button onClick={handleReset}>Reset</button> */}
-    <Button name="Empieza X " onClick={()=>setTurno("X")}/>
-    <Button name="Empieza O " onClick={()=>setTurno("O")}/>
-    {/* <button onClick={() => setTurno("X")}>Empieza"X"</button>
-    <button onClick={() => setTurno("O")}>Empieza"O"</button> */}
-  </div>
-  )
-}
+      <Button name="RESET" onClick={handleReset} />
+      <Button name="Empieza X " onClick={() => setTurno("X")} />
+      <Button name="Empieza O " onClick={() => setTurno("O")} />
+    </div>
+  );
+};
 
-export default ContainerControllers
+export default ContainerControllers;

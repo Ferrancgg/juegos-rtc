@@ -1,4 +1,4 @@
-import "./TableroGame.css"
+// import "./TableroGame.css"
 
 const TableroGame = ({tablero,handleCasilla}) => {
   return (

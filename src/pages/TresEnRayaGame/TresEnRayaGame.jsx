@@ -29,7 +29,7 @@ const TresEnRayaGame = () => {
   };
 
   const handleCasilla = (fila, columna) => {
-    if (campeon) return; 
+    if (campeon) return;
 
     const newTablero = tablero.map((fila) => [...fila]); // Copia profunda
     if (!newTablero[fila][columna]) {
@@ -43,32 +43,32 @@ const TresEnRayaGame = () => {
         return;
       }
 
-      setTurno(turno === "X" ? "O" : "X"); 
+      setTurno(turno === "X" ? "O" : "X");
     }
   };
 
   return (
     <div className="game">
       {!active && <h2>Tres en Raya</h2>}
-      
 
       <div className="container-information">
-        {/* <h4>Información</h4> */}
-        {!active && <p>Dos jugadores, por turnos, veremos quien es el mejor haciendo "tres en raya", ¡¡que gane el mejor!!</p>}
+        
+        {!active && (
+          <p>
+            Dos jugadores, por turnos, veremos quien es el mejor haciendo "tres
+            en raya", ¡¡que gane el mejor!!
+          </p>
+        )}
         {active && <InfoContainer turno={turno} campeon={campeon} />}
-        {!turno&& active&&<p>Toca elegir turno para empezar</p>}
+        {!turno && active && <p>Toca elegir turno para empezar</p>}
       </div>
       {active && (
         <TableroGame tablero={tablero} handleCasilla={handleCasilla} />
       )}
 
       <div className="container-button-controller">
-        {/* <h4>Controllers</h4> */}
-        {!active &&<Button name="EMPEZAR" onClick={() => setActive(true)}/>}
-        
-        {/* <Button/> */}
-        {/* {!active && 
-        <button onClick={()=>setActive(true)}>empezar</button>} */}
+        {!active && <Button name="EMPEZAR" onClick={() => setActive(true)} />}
+
         {active && (
           <ContainerControllers handleReset={handleReset} setTurno={setTurno} />
         )}

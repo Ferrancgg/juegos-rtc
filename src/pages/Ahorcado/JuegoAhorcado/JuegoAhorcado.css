@@ -1,12 +1,9 @@
 .juego-ahorcado {
-
   height: 90svh;
   display: flex;
   align-items: center;
   justify-content: center;
-  
 }
-
 
 .fg-controler {
   display: flex;
@@ -19,17 +16,10 @@ input {
   text-align: center;
 }
 
-
-
-
-
-
-
-
-.victoria-message{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
-    gap: 30px;
+.victoria-message {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
 }

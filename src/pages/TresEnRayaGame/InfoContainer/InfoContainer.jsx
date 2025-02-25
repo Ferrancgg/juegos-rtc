@@ -1,4 +1,4 @@
-import "./InfoContainer.css"
+
 
 const InfoContainer = ({turno,campeon}) => {
   return (

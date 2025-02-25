@@ -68,10 +68,7 @@ const Sudoku = () => {
           </div>
         ))}
       </div>
-      <Button name="VOLVER A JUGAR " onClick={fetchBoard}/>
-      {/* <button onClick={fetchBoard} className="btn">
-        New Board
-      </button> */}
+      <Button name="VOLVER A JUGAR " onClick={fetchBoard} />
     </div>
   );
 };

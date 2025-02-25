@@ -1,15 +1,14 @@
-.button{
-    height: 30px;
-    width: 120px;
-    border: 2px solid var(--color-border);
-    border-radius: 15px;
-    cursor: pointer;
-    color: antiquewhite;
-    background-color: var( --color-secondary);
-
+.button {
+  height: 30px;
+  width: 120px;
+  border: 2px solid var(--color-border);
+  border-radius: 15px;
+  cursor: pointer;
+  color: antiquewhite;
+  background-color: var(--color-secondary);
 }
-.btt-home{
-    height: 40px;
-    width: 40px;
-    border-radius: 100px;
+.btt-home {
+  height: 40px;
+  width: 40px;
+  border-radius: 100px;
 }

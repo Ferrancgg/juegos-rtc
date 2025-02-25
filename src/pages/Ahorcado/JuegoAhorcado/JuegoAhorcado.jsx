@@ -3,7 +3,6 @@ import "./JuegoAhorcado.css";
 import { words } from "../Data/words";
 import WindowText from "../WindowGame/WindowText";
 import IconWindow from "../IconWindow/IconWindow";
-
 import InputWindow from "../InputWindow/InputWindow";
 import Button from "../../../components/Button/Button";
 
