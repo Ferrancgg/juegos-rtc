@@ -9,7 +9,7 @@ const Home = () => {
         img="https://res.cloudinary.com/dj50wjowc/image/upload/v1739167720/verdugo_sy0rsl.png"
         alt="ahorcado-logo"
         name="AHORCADO"
-        desciption="Juega a adivinar la palabra escondiga."
+        desciption="Juega y adivina la palabra escondida."
       />
       <GameCard path={"/sudoku"}  img="https://res.cloudinary.com/dj50wjowc/image/upload/v1739167700/pasatiempo_q8c9zw.png"
         alt="Sudoku-log"
