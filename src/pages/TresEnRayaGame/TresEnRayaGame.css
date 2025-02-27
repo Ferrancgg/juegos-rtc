@@ -1,79 +1,71 @@
-.game{
-    /* border: 2px solid red; */
-    height: 83vh;
-    width: 100%;
-    /* background-color: rgb(166, 120, 59); */
-    display: flex;
-    box-shadow: rgb(86, 91, 110);
-    flex-direction: column;
-    gap: 20px;
-    align-items: center;
-    justify-content: center;
+.game {
+ 
+  height: 83vh;
+  padding-bottom: 15px;
+  width: 100%;
+ 
+  display: flex;
+  box-shadow: rgb(86, 91, 110);
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
 }
-.container-information{
-    /* background-color: aquamarine; */
-    width: 70%;
-    height: 150px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-   
-}
-.tablero{
-    height: 410px;
-    width: 410px;
-    padding: 10px;
-    box-shadow: 2px 2px 30px rgb(113, 112, 122);
-    border-radius: 10px;
-   
-  
-    background-color: var(--color-secondary);
-    border: 2px solid rgb(86, 91, 110);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:5px;
-    flex-wrap: wrap;
-    
-}
-.container-button-controller{
-  
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    width: 70%;
-    height: 150px;
-    
-}
-.casilla{
-    height: 120px;
-    width: 120px;
-    font-size: 50px;
-    border: 2px solid rgb(86, 91, 110);
-    border-radius: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+.container-information {
 
+  width: 70%;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-weight: bold;
 }
+.tablero {
+  height: 410px;
+  width: 410px;
+  padding: 10px;
+  box-shadow: 2px 2px 30px rgb(113, 112, 122);
+  border-radius: 10px;
 
+  background-color: var(--color-secondary);
+  border: 2px solid rgb(86, 91, 110);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+.container-button-controller {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  height: 150px;
+}
+.casilla {
+  height: 120px;
+  width: 120px;
+  font-size: 50px;
+  border: 2px solid rgb(86, 91, 110);
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 /* Ajustes para tablets (pantallas de 768px o menos) */
 @media (max-width: 768px) {
-   
+}
+
+/* Ajustes para móviles (pantallas de 480px o menos) */
+@media (max-width: 480px) {
+  .container-controller-game {
+    display: flex;
+    flex-direction: column;
+    justify-content: none;
+
+    gap: 10px;
   }
-  
-  /* Ajustes para móviles (pantallas de 480px o menos) */
-  @media (max-width: 480px) {
-    .container-controller-game{
-        display: flex;
-        flex-direction: column;
-        justify-content: none;
-      
-        gap: 10px;
-    }
-   
-  }
+}
