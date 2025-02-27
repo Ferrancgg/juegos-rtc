@@ -1,31 +1,8 @@
 .main {
-  height: 87vh;
-  width: 100%;
-
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
   justify-content: center;
-  padding: none;
-}
-
-/* Ajustes para tablets (pantallas de 768px o menos) */
-@media (max-width: 768px) {
-  .main {
-    height: 87vh;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-}
-
-/* Ajustes para móviles (pantallas de 480px o menos) */
-@media (max-width: 480px) {
-  .main {
-    height: 87vh;
-    height: 100%;
-    padding: 0;
-    padding-top: 20px;
-    padding-bottom: 5px;
-  }
+  align-items: center;
+  width: 100%;
+  min-height: 88svh;
+  flex-wrap: wrap;
 }

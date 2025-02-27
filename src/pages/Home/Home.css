@@ -2,6 +2,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-height:92svh ;
   gap: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   flex-wrap: wrap;
+  /* background-color: cadetblue; */
+
+ 
 }
+

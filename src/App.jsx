@@ -5,11 +5,10 @@ import Header from "./components/Header/Header";
 import Main from "./components/Main/Main";
 import Home from "./pages/Home/Home";
 import Sudoku from "./pages/Sudoku/Sudoku";
-
 import TresEnRayaGame from "./pages/TresEnRayaGame/TresEnRayaGame";
 import JuegoAhorcado from "./pages/Ahorcado/JuegoAhorcado/JuegoAhorcado";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -25,6 +24,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App;
